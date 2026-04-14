@@ -38,47 +38,34 @@
         
         combo_left_click {
             bindings = <&mkp LCLK>;
-            key-positions = <25 26>;
+            key-positions = <31 32>;
         };
         
         combo_middle_click {
             bindings = <&mkp MCLK>;
-            key-positions = <26 27>;
+            key-positions = <33 34>;
         };
 
         combo_right_click {
             bindings = <&mkp RCLK>;
-            key-positions = <27 28>;
+            key-positions = <32 33>;
         };
 
         combo_bootloader_left {
             bindings = <&bootloader>;
-            key-positions = <0 24>;
+            key-positions = <1 25>;
             layers = <0>;
         };
 
         combo_bootloader_right {
             bindings = <&bootloader>;
-            key-positions = <11 35>;
+            key-positions = <10 34>;
             layers = <0>;
         };
 
         combo_bt_clear_safe {
             bindings = <&bt BT_CLR>;
-            key-positions = <0 11>;
-            layers = <0>;
-        };
-
-        combo_all_windows {
-            bindings = <&ht_combo_all_windows 0 0>;
-            key-positions = <32 33>;
-            layers = <0>;
-        };
-
-        combo_app_windows {
-            // KDE Present Windows (current app/window class).
-            bindings = <&ht_combo_app_windows 0 0>;
-            key-positions = <31 32>;
+            key-positions = <1 10>;
             layers = <0>;
         };
     };
