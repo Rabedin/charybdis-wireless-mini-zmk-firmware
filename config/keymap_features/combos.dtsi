@@ -14,7 +14,7 @@
         compatible = "zmk,combos";
 
 	zmk_studio_unlock {
-	    bindings = <&studiounlock>;
+	    bindings = <&studio_unlock>;
 	    key-positions = <5 6>;
 	    layers = <0>;
 	};
