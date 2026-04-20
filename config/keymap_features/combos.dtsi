@@ -25,6 +25,12 @@
             layers = <0>;
         };
 
+	toggle_colemak {
+	    bindings = <&tog 6>;
+	    key-positions = <2 3 4 7 8 9>;
+	    layers = <0 6>;
+	};
+
         combo_esc_left {
             bindings = <&kp ESC>;
             key-positions = <1 2>;
