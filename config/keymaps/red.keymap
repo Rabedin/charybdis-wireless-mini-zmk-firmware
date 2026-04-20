@@ -28,6 +28,8 @@
 // #define SYM     2
 // #define FUNC    3
 // #define MOUSE   4
+// #define EXTRAS  5
+// #define COLEMAK 6
 
     keymap {
         compatible = "zmk,keymap";
