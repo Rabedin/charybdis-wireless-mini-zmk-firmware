@@ -91,16 +91,6 @@
             >;
         };
 
-        COLEMAK {
-            display-name = "Colemak-DH";
-            bindings = <
-&none &kp Q &kp W &kp F &kp P &kp B &kp J &kp L &kp U &kp Y &kp SEMICOLON &none
-&none &ht_left LGUI A &ht_left LALT R &ht_left LCTRL S &ht_left LSHFT T &kp G &kp M &ht_right RSHFT N &ht_right RCTRL E &ht_right LALT I &ht_right RGUI O &none
-&none &kp Z &kp X &kp C &kp D &kp V &kp K &kp H &kp COMMA &kp DOT &kp FSLH &none
-                  &lt_nav 3 ESC &lt_nav 1 SPACE &lt_nav 4 TAB &kp BSPC &lt_nav 2 RET 
-            >;
-        };
-
         SLOW {
             display-name = "Slow";
             bindings = <
