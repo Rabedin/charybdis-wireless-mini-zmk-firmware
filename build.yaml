@@ -62,8 +62,8 @@ include:
   - name: dongle_prospector_xiao_no_sensor
     board: xiao_ble//zmk
     keymap:
-      - red
-      - qwerty
+      # - red
+      # - qwerty
       # - colemak_dh
       # - canary
     builds:
@@ -83,8 +83,8 @@ include:
   - name: dongle_prospector_xiao_sensor
     board: xiao_ble//zmk
     keymap:
-      - red
-      - qwerty
+      # - red
+      # - qwerty
       # - colemak_dh
       # - canary
     builds:
