@@ -49,7 +49,7 @@
            thus, the sensor would be a `wakeup-source` */
 
         /* force-awake-4ms-mode was causing asymmetric X-axis jitter at higher polling rate */
-        // force-awake-4ms-mode;
+        force-awake-4ms-mode;
     };
 };
 
