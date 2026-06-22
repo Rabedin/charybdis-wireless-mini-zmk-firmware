@@ -77,7 +77,7 @@
             display-name = "Mouse";
             bindings = <
 &none &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &none
-&none &trans &trans &trans &trans &trans &trans &mkp MB1 &mkp MB2 &mkp MB3 &trans &none
+&none &trans &trans &trans &trans &trans &trans &mkp MB1 &mkp MB2 &mkp MB3 &mo 7 &none
 &none &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &none
                   &trans &trans &trans &trans &trans
             >;
